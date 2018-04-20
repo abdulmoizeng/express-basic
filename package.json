@@ -5,7 +5,8 @@
   "scripts": {
     "start": "forever start ./bin/www",
     "stop": "forever stopall",
-    "list": "forever list"
+    "list": "forever list",
+    "logs": "forever logs"
   },
   "dependencies": {
     "forever": "*",
